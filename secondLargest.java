@@ -20,6 +20,7 @@ static int findSecondLargest(int[] arr)
 {
     int max = Integer.MAX_VALUE;
     int secondMax = Integer.MIN_VALUE;
+    
     for(int i=0; i < arr.length; i++ )
     {
         if(arr[i]> max)
@@ -33,8 +34,5 @@ static int findSecondLargest(int[] arr)
         }
     }
     return secondMax;
-
- 
-
 }
 }
